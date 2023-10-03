@@ -1,0 +1,32 @@
+body{
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    background-color: black;
+    color: white;
+    text-align: center;
+
+}
+
+div{
+    
+    width: 700px;
+    height: 380px;
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 5%;
+}
+
+h1{
+    padding-top: 10px;
+    font-size: 40px;
+}
+
+img{
+    border: 5px solid white;
+    width: 100%;
+}
+
+h2{
+    font-size: 15px;
+    padding-top: 10px;
+}
