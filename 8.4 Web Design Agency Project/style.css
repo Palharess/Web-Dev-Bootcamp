@@ -48,7 +48,7 @@ footer {
 
 .card-text{
   text-align: left;
-  
+
 }
 
 h1{
@@ -56,6 +56,9 @@ h1{
   display: inline-block;
 }
 
+span{
+  color: blue;
+}
 
 /* .lefti{
   float: left;
@@ -66,4 +69,35 @@ h1{
 
 .left, .right{
   margin-right: 1rem;
+}
+
+
+@media(max-width:900px){
+  .left, .right{
+    width: 100%;
+    margin: 0;
+  }
+  .card-text{
+    text-align: justify;
+    margin-bottom: 2rem;
+  }
+  .tile-image{
+    display: inline;
+    width: 45rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+  h1{
+    text-align: center;
+    font-size: 4rem;
+  }
+
+
+}
+
+@media (min-width:1500px){
+  .logo{
+    display: block;
+  }
+
 }
