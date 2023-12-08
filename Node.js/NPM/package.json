@@ -1,0 +1,21 @@
+{
+  "name": "teste-npm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index .js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+    
+  },
+  "repository": {
+    "type": "git",
+    "url": "Web Dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sillyname": "^0.1.0",
+    "superheroes": "^3.0.0"
+  }
+}
